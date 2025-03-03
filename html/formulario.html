@@ -4,32 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <h1 class="tituloform"></h1>
     <form action="mailto"apy122@gmail.com">
         <fieldset>
-            <Legend>Datos personales</Legend>
-            <label for="nombre">nombre</label>\
-            <input type="text" name="nombre" >
-            <label for="apellidos"></label>
-            <input type="text" name="apellidos" id="" required placeholder="apellidos">
-            <label for="edad"></label>
-            <input type="number" name="edad" required placeholder="edad">
+            <div class="datosPersonales">
+                <Legend>Datos personales</Legend>
+                <label for="nombre">nombre</label>
+                <input type="text" name="nombre" >
+                <label for="apellidos">apellidos</label>
+                <input type="text" name="apellidos" id="" required placeholder="apellidos">
+                <label for="edad">edad</label>
+                <input type="number" name="edad" required placeholder="edad">
+            </div>
         </fieldset>
         <fieldset>
             <legend>sexo</legend>
-            <input type="radio" name="sexo" value="hombre">
-            <input type="radio" name="sexo" value="mujer">
-            <input type="radio" name="sexo" value="otro">
+           <label for="sexo">hombre</label> <input type="radio" name="sexo" value="hombre">
+           <label for="sexo">mujer</label> <input type="radio" name="sexo" value="mujer">
+           <label for="sexo">otros</label><input type="radio" name="sexo" value="otro">
         </fieldset>
         <fieldset>
             <legend>Partido al que votaras</legend>
-            <input type="checkbox" name="voto" value="pp">
-            <input type="checkbox" name="voto" value="psoe">
-            <input type="checkbox" name="voto" value ="podemos">
-            <input type="checkbox" name="voto" value="vox">
+            <label for="voto">pp</label><input type="checkbox" name="voto" value="pp">
+            <label for="voto">psoe</label><input type="checkbox" name="voto" value="psoe">
+            <label for="voto">podemos</label><input type="checkbox" name="voto" value ="podemos">
+            <label for="voto">vox</label><input type="checkbox" name="voto" value="vox">
         </fieldset>
         <fieldset>
             <legend>Enviar</legend>
